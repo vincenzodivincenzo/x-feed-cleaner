@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>x-feed-cleaner</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>X Feed Cleaner</h1>
+    </header>
+    
+    <main>
+      <div class="settings" id="settings">
+        <div class="setting-group">
+          <h3>Extension Control</h3>
+          
+          <label class="setting">
+            <span>Extension Enabled</span>
+            <div class="toggle">
+              <input type="checkbox" id="enabled">
+              <span class="slider"></span>
+            </div>
+          </label>
+          
+          <button id="toggleAllFeatures" class="action-btn">
+            <span id="toggleAllText">Turn on all features</span>
+          </button>
+        </div>
+        
+        <div class="setting-group">
+          <h3>Content Filtering</h3>
+          
+          <label class="setting">
+            <span>Hide promoted tweets</span>
+            <div class="toggle">
+              <input type="checkbox" id="hidePromotedTweets">
+              <span class="slider"></span>
+            </div>
+          </label>
+          
+          <label class="setting">
+            <span>Auto-switch to Following tab</span>
+            <div class="toggle">
+              <input type="checkbox" id="hideAlgorithmicFeed">
+              <span class="slider"></span>
+            </div>
+          </label>
+          
+          <label class="setting">
+            <span>Hide engagement metrics</span>
+            <div class="toggle">
+              <input type="checkbox" id="hideMetrics">
+              <span class="slider"></span>
+            </div>
+          </label>
+        </div>
+        
+        <div class="setting-group">
+          <h3>Interface Cleanup</h3>
+          
+          <label class="setting">
+            <span>Hide right sidebar</span>
+            <div class="toggle">
+              <input type="checkbox" id="cleanSidebar">
+              <span class="slider"></span>
+            </div>
+          </label>
+          
+          <label class="setting">
+            <span>Hide "Who to follow" suggestions</span>
+            <div class="toggle">
+              <input type="checkbox" id="hideWhoToFollow">
+              <span class="slider"></span>
+            </div>
+          </label>
+          
+          <label class="setting">
+            <span>Hide trending topics</span>
+            <div class="toggle">
+              <input type="checkbox" id="hideTrends">
+              <span class="slider"></span>
+            </div>
+          </label>
+          
+          <label class="setting">
+            <span>Hide Grok navigation</span>
+            <div class="toggle">
+              <input type="checkbox" id="hideGrok">
+              <span class="slider"></span>
+            </div>
+          </label>
+          
+          <label class="setting">
+            <span>Hide Subscriptions</span>
+            <div class="toggle">
+              <input type="checkbox" id="hideSubscriptions">
+              <span class="slider"></span>
+            </div>
+          </label>
+        </div>
+        
+        <div class="setting-group">
+          <h3>Left Navigation</h3>
+          
+          <label class="setting">
+            <span>Hide Bookmarks tab</span>
+            <div class="toggle">
+              <input type="checkbox" id="hideBookmarksNav">
+              <span class="slider"></span>
+            </div>
+          </label>
+          
+          <label class="setting">
+            <span>Hide Jobs tab</span>
+            <div class="toggle">
+              <input type="checkbox" id="hideJobsNav">
+              <span class="slider"></span>
+            </div>
+          </label>
+          
+          <label class="setting">
+            <span>Hide Communities tab</span>
+            <div class="toggle">
+              <input type="checkbox" id="hideCommunitiesNav">
+              <span class="slider"></span>
+            </div>
+          </label>
+          
+          <label class="setting">
+            <span>Hide Premium tab</span>
+            <div class="toggle">
+              <input type="checkbox" id="hidePremiumNav">
+              <span class="slider"></span>
+            </div>
+          </label>
+          
+          <label class="setting">
+            <span>Hide Verified Orgs tab</span>
+            <div class="toggle">
+              <input type="checkbox" id="hideVerifiedOrgsNav">
+              <span class="slider"></span>
+            </div>
+          </label>
+        </div>
+        
+
+      </div>
+      
+      <div class="footer">
+        Clean X/Twitter feed • No data collection
+      </div>
+      
+      <div class="brand-footer">
+        <a href="https://properbrand.co/" target="_blank" class="brand-link">
+          powered by <span class="brand-name">properbrand</span>
+        </a>
+      </div>
+    </main>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+chrome-extension://mpeengabcnhhjjgleiodimegnkpcenbk/extension-scripts/solana.js
