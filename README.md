@@ -4,7 +4,7 @@ A clean, distraction-free Chrome extension for X/Twitter that removes unwanted e
 
 **Version**: 1.0.0
 
-## ✨ Features
+## Features
 
 ### Content Filtering
 - **Hide promoted tweets** - Removes sponsored content from your feed
@@ -25,7 +25,7 @@ A clean, distraction-free Chrome extension for X/Twitter that removes unwanted e
 - **Hide Premium tab** - Removes premium navigation item
 - **Hide Verified Orgs tab** - Removes verified organizations navigation
 
-## 🚀 Installation
+## Installation
 
 ### From Source
 1. Clone this repository:
@@ -56,7 +56,7 @@ All settings are toggled on/off through the popup interface:
 - **Turn on all features** - Quick button to enable all cleaning features
 - **Turn off all features** - Quick button to disable all cleaning features
 
-## 🛠️ Technical Details
+## 🛠Technical Details
 
 - **Manifest Version**: 3
 - **Permissions**: `storage` (for saving preferences)
@@ -64,13 +64,13 @@ All settings are toggled on/off through the popup interface:
 - **Background Script**: Manages extension state and icon updates
 - **Popup Interface**: Clean, minimal settings panel
 
-## 🔒 Privacy
+## Privacy
 
 - **No data collection** - The extension doesn't collect, store, or transmit any user data
 - **Local storage only** - All settings are stored locally in your browser
 - **No external requests** - The extension doesn't make any network requests
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -95,7 +95,7 @@ If you have other X/Twitter-related extensions installed, they may conflict. Try
 - Reloading the X Feed Cleaner extension
 - Refreshing the X.com page
 
-## 📝 Development
+## Development
 
 ### Project Structure
 ```
@@ -120,11 +120,11 @@ No build process required - this is a pure JavaScript extension.
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with modern Chrome Extension APIs
 - Inspired by the need for a cleaner X/Twitter experience
