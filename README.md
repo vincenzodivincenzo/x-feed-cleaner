@@ -48,7 +48,7 @@ A clean, distraction-free Chrome extension for X/Twitter that removes unwanted e
 3. Configure your preferences using the toggles
 4. Settings are saved automatically and persist across browser sessions
 
-## 🔧 Configuration
+## Configuration
 
 All settings are toggled on/off through the popup interface:
 
@@ -56,7 +56,7 @@ All settings are toggled on/off through the popup interface:
 - **Turn on all features** - Quick button to enable all cleaning features
 - **Turn off all features** - Quick button to disable all cleaning features
 
-## 🛠Technical Details
+## Technical Details
 
 - **Manifest Version**: 3
 - **Permissions**: `storage` (for saving preferences)
