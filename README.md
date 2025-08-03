@@ -1,6 +1,8 @@
-# X Feed Cleaner
+# X Feed Cleaner v1.0
 
 A clean, distraction-free Chrome extension for X/Twitter that removes unwanted elements without collecting any data.
+
+**Version**: 1.0.0
 
 ## ✨ Features
 
